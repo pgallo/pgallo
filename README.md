@@ -19,6 +19,7 @@ The production systems I have built are proprietary. The repositories below are 
 | [blackboard-rmi](https://github.com/pgallo/blackboard-rmi) | Java 21, RMI | Distributed blackboard system: knowledge sources in separate JVMs, opportunistic control |
 | [matchmaker-grid](https://github.com/pgallo/matchmaker-grid) | Python | High-throughput computing: declarative resource ads, symmetric matchmaking, fair-share scheduling, DAG workflows |
 | [georesolve-cpp](https://github.com/pgallo/georesolve-cpp) | C++17 | Toponym disambiguation with HMM decoding and KNN context models |
+| [wifi-fasthandoff](https://github.com/pgallo/wifi-fasthandoff) | C11, Python | Fast Wi-Fi handoff in driver logic with a learned next-AP predictor, and a content delivery layer that keeps sessions continuous across handoffs |
 | [telemetry-orb](https://github.com/pgallo/telemetry-orb) | C++17, CORBA | Real-time telemonitoring over CORBA with push subscriptions and per-subscriber QoS |
 | [bedside-link](https://github.com/pgallo/bedside-link) | Object Pascal | Connectivity gateway for intensive-care equipment: protocol drivers, HL7 v2, alarm engine |
 | [fleetline](https://github.com/pgallo/fleetline) | C++17, Python | Fleet telematics: C++ stream engine for geofencing and trips, Python service and analytics via pybind11 |
@@ -38,6 +39,7 @@ Each lab reconstructs, in 2026 and on synthetic data, an approach I first applie
 | 2004 to 2005 | Distributed computing experiments with blackboard architectures | [blackboard-rmi](https://github.com/pgallo/blackboard-rmi) |
 | 2006 | Grid computing with matchmaking schedulers | [matchmaker-grid](https://github.com/pgallo/matchmaker-grid) |
 | 2007 | Geo-disambiguation engine in C++ (HMM, KNN, SVM, neural networks) | [georesolve-cpp](https://github.com/pgallo/georesolve-cpp) |
+| 2007 | Fast Wi-Fi handoff adapted inside the driver, with ML next-AP prediction and content continuity for the delivery platform | [wifi-fasthandoff](https://github.com/pgallo/wifi-fasthandoff) |
 | 2011 to 2015 | Actor-based multi-agent systems for decision intelligence, with ML and neural network models | [actor-council](https://github.com/pgallo/actor-council) |
 | 2014 to 2018 | Case management and semantic search for analysts, with ML and neural network NLP | [casefile-dotnet](https://github.com/pgallo/casefile-dotnet) |
 | 2018 | KYC and AML for energy and utilities: entity resolution, ownership graphs, key-person risk, with ML and neural network models | [kyc-energy-graph](https://github.com/pgallo/kyc-energy-graph) |
@@ -59,12 +61,13 @@ Each lab reconstructs, in 2026 and on synthetic data, an approach I first applie
 | NLP/NLU and classical ML (HMM, KNN, gradient boosting) | georesolve-cpp, decision-model-lab |
 | Multi-agent systems and actor model | actor-council, blackboard-rmi |
 | Distributed and grid computing (CORBA, RMI, matchmaking) | telemetry-orb, blackboard-rmi, matchmaker-grid |
-| Real-time systems and device integration | bedside-link, telemetry-orb, fleetline |
+| Real-time systems and device integration | bedside-link, telemetry-orb, fleetline, wifi-fasthandoff |
+| Wireless networking, driver logic and content delivery | wifi-fasthandoff |
 | Geospatial processing | georesolve-cpp, fleetline, waypoint-android |
 | Mobile and offline-first sync | waypoint-android |
 | APIs and services | casefile-dotnet, fleetline, mcp-hitl |
 
-Languages: Python, C++, Java, C#, TypeScript, Object Pascal, Rust, Kotlin.
+Languages: Python, C++, C, Java, C#, TypeScript, Object Pascal, Rust, Kotlin.
 
 ## Production systems (confidential)
 
