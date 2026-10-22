@@ -23,13 +23,36 @@ The production systems I have built are proprietary. The repositories below are 
 | [bedside-link](https://github.com/pgallo/bedside-link) | Object Pascal | Connectivity gateway for intensive-care equipment: protocol drivers, HL7 v2, alarm engine |
 | [fleetline](https://github.com/pgallo/fleetline) | C++17, Python | Fleet telematics: C++ stream engine for geofencing and trips, Python service and analytics via pybind11 |
 | [casefile-dotnet](https://github.com/pgallo/casefile-dotnet) | C#, .NET 8 | Case management with a from-scratch BM25 search engine, facets and link analysis |
+| [kyc-energy-graph](https://github.com/pgallo/kyc-energy-graph) | Python | KYC and AML for energy and utilities: entity resolution across registry and data feeds, ownership graphs, confidence-scored key-person risk |
 | [waypoint-android](https://github.com/pgallo/waypoint-android) | Rust, Kotlin | Offline-first Android app with a Rust core shared through UniFFI and CRDT-style sync |
+
+## Timeline
+
+Each lab reconstructs, in 2026 and on synthetic data, an approach I first applied in production or in applied research in the period shown. From 2007 onward every system I built combined AI and machine learning (HMM, KNN, SVM, neural networks) with knowledge graphs.
+
+| Period | Original work | Lab |
+|---|---|---|
+| 1996 | Connectivity for intensive-care equipment | [bedside-link](https://github.com/pgallo/bedside-link) |
+| 2002 | Real-time telemonitoring over CORBA in C++ | [telemetry-orb](https://github.com/pgallo/telemetry-orb) |
+| 2003 | Fleet management in C++ and Python | [fleetline](https://github.com/pgallo/fleetline) |
+| 2004 to 2005 | Distributed computing experiments with blackboard architectures | [blackboard-rmi](https://github.com/pgallo/blackboard-rmi) |
+| 2006 | Grid computing with matchmaking schedulers | [matchmaker-grid](https://github.com/pgallo/matchmaker-grid) |
+| 2007 | Geo-disambiguation engine in C++ (HMM, KNN, SVM, neural networks) | [georesolve-cpp](https://github.com/pgallo/georesolve-cpp) |
+| 2011 to 2015 | Actor-based multi-agent systems for decision intelligence, with ML and neural network models | [actor-council](https://github.com/pgallo/actor-council) |
+| 2014 to 2018 | Case management and semantic search for analysts, with ML and neural network NLP | [casefile-dotnet](https://github.com/pgallo/casefile-dotnet) |
+| 2018 | KYC and AML for energy and utilities: entity resolution, ownership graphs, key-person risk, with ML and neural network models | [kyc-energy-graph](https://github.com/pgallo/kyc-energy-graph) |
+| 2019 to 2023 | Neuro-symbolic knowledge graphs combining ML, neural networks and symbolic AI; LLM-as-judge evaluation | [kg-rag-lab](https://github.com/pgallo/kg-rag-lab) |
+| 2023 to present | MCP, LLM pipelines and human-in-the-loop agents | [mcp-hitl](https://github.com/pgallo/mcp-hitl) |
+| 2024 to present | Decision models with ML and neural networks in life sciences, insurance, banking fraud and intelligence | [decision-model-lab](https://github.com/pgallo/decision-model-lab) |
+| 2026 | Exploration: Rust domain core shared with an Android UI | [waypoint-android](https://github.com/pgallo/waypoint-android) |
 
 ## Capability map
 
 | Capability | Where to look |
 |---|---|
 | Decision intelligence and decision modelling | decision-model-lab, actor-council |
+| KYC, AML and financial crime | kyc-energy-graph, decision-model-lab |
+| Entity resolution and ownership graphs | kyc-energy-graph, kg-rag-lab |
 | Human-in-the-loop AI, explainability, audit | mcp-hitl, actor-council, decision-model-lab |
 | LLM pipelines, RAG, GraphRAG, evaluation | kg-rag-lab, mcp-hitl |
 | Knowledge graphs, ontologies, semantic search | kg-rag-lab, casefile-dotnet |
