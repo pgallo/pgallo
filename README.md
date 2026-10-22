@@ -8,6 +8,8 @@ The common thread is 0 to 1: six products taken from a blank page to real users,
 
 ## Lab portfolio
 
+**Why these labs exist.** Most of what I built in 30 years is proprietary and will never be public. These repositories are my way of preserving the ideas behind that work and sharing them with the community: each one is a reconstruction written in 2026, on synthetic data, of an approach I designed and shipped in the period shown in the timeline. The original code belongs to the companies I built it for; the engineering judgement is mine.
+
 The production systems I have built are proprietary. The repositories below are public reference implementations, written in 2026 on synthetic data, that reconstruct the engineering patterns behind that work. Each one builds, runs a demo and has tests in CI.
 
 | Repository | Stack | What it shows |
