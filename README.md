@@ -67,7 +67,7 @@ Each lab reconstructs, in 2026 and on synthetic data, an approach I first applie
 | Mobile and offline-first sync | waypoint-android |
 | APIs and services | casefile-dotnet, fleetline, mcp-hitl |
 
-Languages: Python, C++, C, Java, C#, TypeScript, Object Pascal, Rust, Kotlin.
+Languages: C, C++, Python, Java, C#, TypeScript, Turbo Pascal, Object Pascal, Rust, Kotlin.
 
 ## Production systems (confidential)
 
