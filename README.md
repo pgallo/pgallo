@@ -22,6 +22,9 @@ The production systems I have built are proprietary. The repositories below are 
 | [matchmaker-grid](https://github.com/pgallo/matchmaker-grid) | Python | High-throughput computing: declarative resource ads, symmetric matchmaking, fair-share scheduling, DAG workflows |
 | [georesolve-cpp](https://github.com/pgallo/georesolve-cpp) | C++17 | Toponym disambiguation with HMM decoding and KNN context models |
 | [wifi-fasthandoff](https://github.com/pgallo/wifi-fasthandoff) | C11, Python | Fast Wi-Fi handoff in driver logic with a learned next-AP predictor, and a content delivery layer that keeps sessions continuous across handoffs |
+| [sip-video-cc](https://github.com/pgallo/sip-video-cc) | C++17 | Video contact center on SIP with SDP audio/video negotiation, RTP/RTCP and CSTA integration with commercial telephony platforms |
+| [sip-contact-center](https://github.com/pgallo/sip-contact-center) | Java 21 | SIP contact center from scratch: SIP stack, registrar and proxy, skills-based ACD, IVR, CDRs, adapters for open-source and commercial telephony platforms |
+| [webcart-1998](https://github.com/pgallo/webcart-1998) | C++, COM/DCOM, ASP, Java Servlets | Three-tier e-commerce shopping cart: DCOM business components, ASP pages on IIS and a Java Servlet storefront |
 | [telemetry-orb](https://github.com/pgallo/telemetry-orb) | C++17, CORBA | Real-time telemonitoring over CORBA with push subscriptions and per-subscriber QoS |
 | [bedside-link](https://github.com/pgallo/bedside-link) | Object Pascal | Connectivity gateway for intensive-care equipment: protocol drivers, HL7 v2, alarm engine |
 | [fleetline](https://github.com/pgallo/fleetline) | C++17, Python | Fleet telematics: C++ stream engine for geofencing and trips, Python service and analytics via pybind11 |
@@ -36,6 +39,9 @@ Each lab reconstructs, in 2026 and on synthetic data, an approach I first applie
 | Period | Original work | Lab |
 |---|---|---|
 | 1996 | Connectivity for intensive-care equipment | [bedside-link](https://github.com/pgallo/bedside-link) |
+| 1998 | E-commerce shopping cart with Java Servlets, server-side DCOM components and ASP on IIS | [webcart-1998](https://github.com/pgallo/webcart-1998) |
+| 1999 to 2000 | SIP contact center, integrated with open-source and commercial telephony platforms | [sip-contact-center](https://github.com/pgallo/sip-contact-center) |
+| 2001 | Video contact center on SIP, integrated with standard contact-center protocols (CSTA) | [sip-video-cc](https://github.com/pgallo/sip-video-cc) |
 | 2002 | Real-time telemonitoring over CORBA in C++ | [telemetry-orb](https://github.com/pgallo/telemetry-orb) |
 | 2003 | Fleet management in C++ and Python | [fleetline](https://github.com/pgallo/fleetline) |
 | 2004 to 2005 | Distributed computing experiments with blackboard architectures | [blackboard-rmi](https://github.com/pgallo/blackboard-rmi) |
@@ -65,6 +71,8 @@ Each lab reconstructs, in 2026 and on synthetic data, an approach I first applie
 | Distributed and grid computing (CORBA, RMI, matchmaking) | telemetry-orb, blackboard-rmi, matchmaker-grid |
 | Real-time systems and device integration | bedside-link, telemetry-orb, fleetline, wifi-fasthandoff |
 | Wireless networking, driver logic and content delivery | wifi-fasthandoff |
+| Telephony, SIP, contact centers and CTI | sip-contact-center, sip-video-cc |
+| Web commerce and component architectures (COM/DCOM, Servlets, ASP) | webcart-1998 |
 | Geospatial processing | georesolve-cpp, fleetline, waypoint-android |
 | Mobile and offline-first sync | waypoint-android |
 | APIs and services | casefile-dotnet, fleetline, mcp-hitl |
