@@ -377,6 +377,22 @@ BLUEPRINTS = [
         ["Delivered system. Not public."],
     ),
     Blueprint(
+        "BP-08", "sip-contact-center",
+        "SIP voice and video contact center", "1999 to 2000 voice, 2001 video  |  design and development  |  0 to 1",
+        [
+            ("Callers", ["Voice callers", "Video callers", "SIP trunks"]),
+            ("SIP layer", ["Registrar and proxy", "B2BUA and media relay", "SDP audio and video"]),
+            ("Contact center", ["IVR with DTMF", "Skills-based ACD", "Queues and overflow"]),
+            ("Agents", ["Agent states", "Desktop via CSTA", "Video-capable routing"]),
+            ("Platforms", ["Open-source PBX manager interfaces", "Commercial PBX via CSTA", "CDRs and reporting"]),
+        ],
+        "SIP SIGNALLING  |  RTP/RTCP VOICE AND VIDEO  |  CSTA THIRD-PARTY CALL CONTROL",
+        [
+            "Delivered systems. Code and deployments are not public.",
+            "2001: video added end to end (video IVR, video agents, audio fallback, lip sync).",
+        ],
+    ),
+    Blueprint(
         "BP-07", "narrative-intelligence",
         "Narrative intelligence", "Architecture for tracking narratives across open sources",
         [

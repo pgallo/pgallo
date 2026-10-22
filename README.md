@@ -101,6 +101,9 @@ The systems below are proprietary and not public. The drawings are simplified, c
 ### Semantic intelligence suite (2007 to 2014)
 ![Semantic intelligence suite blueprint](blueprints/bp-05-semantic-intelligence-suite.svg)
 
+### SIP voice and video contact center (1999 to 2001)
+![SIP voice and video contact center blueprint](blueprints/bp-08-sip-contact-center.svg)
+
 ### Intensive care monitoring system (1996)
 ![ICU monitoring system blueprint](blueprints/bp-06-icu-monitoring-system.svg)
 
